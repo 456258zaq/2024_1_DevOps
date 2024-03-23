@@ -1,0 +1,56 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+# 구동 환경 : ubuntu Ver.22.04 
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box_check_update = false
+  # gitlabserver
+  config.vm.define "app" do |app|
+    app.vm.hostname = "gitlabserver"
+    app.vm.box = "ubuntu/jammy64"
+    app.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: [".git/"]
+    app.vm.network :forwarded_port, host: 8080, guest: 80, auto_correct: true
+    app.vm.provider "virtualbox" do |v|
+      v.memory = "4096"
+      v.cpus = 4
+    end
+
+    app.vm.provision "shell", inline: <<-SHELL
+      sudo apt-get update
+      sudo apt-get install -y curl openssh-server ca-certificates
+
+      sudo debconf-set-selections <<< "postfix postfix/mailname string $HOSTNAME"
+      sudo debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Site'"
+      DEBIAN_FRONTEND=noninteractive sudo apt-get install -y postfix
+
+      if [ ! -e /vagrant/gitlab-ce.deb ]; then
+        sudo wget --content-disposition -O /vagrant/gitlab-ce.deb https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/jammy/gitlab-ce_16.7.7-ce.0_amd64.deb/download.deb
+      fi
+      sudo dpkg -i /vagrant/gitlab-ce.deb
+      sudo gitlab-ctl reconfigure
+
+      sudo curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
+
+      # Give it permission to execute
+      sudo chmod +x /usr/local/bin/gitlab-runner
+
+      # Create a GitLab Runner user
+      sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+
+      # Install and run as a service
+      sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
+      sudo gitlab-runner start
+      SHELL
+  end
+
+  config.vm.define "db" do |db|
+    db.vm.hostname = "dbserver"
+    db.vm.box = "ubuntu/jammy64"
+    db.vm.network :forwarded_port, host:5566, guest: 80, auto_correct: true
+    db.vm.provider "virtualbox" do |v|
+      v.memory = "4096"
+      v.cpus = 4
+    end
+  end
+end
