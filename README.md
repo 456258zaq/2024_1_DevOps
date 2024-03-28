@@ -10,7 +10,7 @@ Ver 3 : 3차 과제
     3차 과제 깃랩 비밀번호 ssh : vagrant ssh app -c "sudo cat /etc/gitlab/initial_root_password"
     # vagrant ssh 로 들어가서 확인 가능함
     # vagrant ssh 나오는 방법 : logout 입력
-Ver 4 : 4차 과제
+Ver 4 : 4차 과제 (브랜치 생성)
     (Vagrant Gitlab 3차 테스트)
     vagrant --hyperparameter up
     vagrant --hyperparameter provision  형태로 진행하면 됨
