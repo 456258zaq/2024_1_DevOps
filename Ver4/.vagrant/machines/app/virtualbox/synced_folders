@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","rsync__exclude":[".git/"],"guestpath":"/vagrant","hostpath":"/home/byunghoon/Documents/devops/Kookmin_DevOps_LBH/Ver4","disabled":false,"__vagrantfile":true,"exclude":[".git/"],"owner":"vagrant","group":"vagrant"}}}
