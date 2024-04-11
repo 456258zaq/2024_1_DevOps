@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1712835622,,"wq"
+|2,0,1712839581,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,26 +25,102 @@
 # Registers:
 
 # File marks:
-'0  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
-|4,48,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
-'1  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
-|4,49,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
-'2  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
-|4,50,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+'0  10  14  ~/ansible-playbook-sample/roles/serverspec/tasks/main.yml
+|4,48,10,14,1712839581,"~/ansible-playbook-sample/roles/serverspec/tasks/main.yml"
+'1  10  0  ~/ansible-playbook-sample/site.yml
+|4,49,10,0,1712839531,"~/ansible-playbook-sample/site.yml"
+'2  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,50,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+'3  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,51,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+'4  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,52,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 
 # Jumplist (newest first):
+-'  10  14  ~/ansible-playbook-sample/roles/serverspec/tasks/main.yml
+|4,39,10,14,1712839581,"~/ansible-playbook-sample/roles/serverspec/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/serverspec/tasks/main.yml
+|4,39,1,0,1712839562,"~/ansible-playbook-sample/roles/serverspec/tasks/main.yml"
+-'  10  0  ~/ansible-playbook-sample/site.yml
+|4,39,10,0,1712839531,"~/ansible-playbook-sample/site.yml"
+-'  10  0  ~/ansible-playbook-sample/site.yml
+|4,39,10,0,1712839531,"~/ansible-playbook-sample/site.yml"
+-'  1  0  ~/ansible-playbook-sample/site.yml
+|4,39,1,0,1712839522,"~/ansible-playbook-sample/site.yml"
+-'  1  0  ~/ansible-playbook-sample/site.yml
+|4,39,1,0,1712839522,"~/ansible-playbook-sample/site.yml"
 -'  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
 |4,39,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  10  46  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,10,46,1712835622,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,1,0,1712835592,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,1,0,1712835592,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
+|4,39,1,0,1712835592,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
 -'  1  0  ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
 |4,39,1,0,1712835592,"~/ansible-playbook-sample/roles/nginx/tasks/main.yml"
 -'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
 |4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 -'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
 |4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  4  40  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,4,40,1712835576,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 -'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
 |4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 -'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
 |4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  12  46  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,12,46,1712835475,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
+-'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
+|4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 -'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
 |4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 -'  1  0  ~/ansible-playbook-sample/roles/common/tasks/main.yml
@@ -55,6 +131,20 @@
 |4,39,1,0,1712835379,"~/ansible-playbook-sample/roles/common/tasks/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible-playbook-sample/roles/serverspec/tasks/main.yml
+	*	1712839581	0
+	"	10	14
+	^	10	15
+	.	4	29
+	+	4	29
+
+> ~/ansible-playbook-sample/site.yml
+	*	1712839529	0
+	"	10	0
+	^	10	1
+	.	8	0
+	+	8	0
 
 > ~/ansible-playbook-sample/roles/nginx/tasks/main.yml
 	*	1712835622	0
