@@ -24,7 +24,7 @@
     --run-untagged="false"
     --locked="false"
     --access-level="not_protected"
-  become: ture
+  become: true
   when: gitlab_url is defined and gitlab_runner_token is defined
 - name: Register Docker Runner to GitLab
   command: >
@@ -43,5 +43,7 @@
     --run-untagged="true"
     --locked="false"
     --access-level="not_protected"
-  when: gitlab_url is defined and gitlab-runner_token is defined
+  when: gitlab_url is defined and gitlab_runner_token is defined
   become: true
+- name: Copy To File gitlab-runner
+  template: src=gitlab-runner dest=/etc/sudoers.d/gitlab-runner

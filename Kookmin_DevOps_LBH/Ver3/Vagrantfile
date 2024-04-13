@@ -11,6 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     app.vm.box = "ubuntu/jammy64"
     app.vm.synced_folder ".", "/vagrant", type: "rsync", rsync__exclude: [".git/"]
     app.vm.network :forwarded_port, host: 8080, guest: 80, auto_correct: true
+    app.vm.network "private_network", ip: "192.168.56.2"
     app.vm.provider "virtualbox" do |v|
       v.memory = "4096"
       v.cpus = 4
@@ -44,13 +45,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       SHELL
   end
 
-  config.vm.define "db" do |db|
-    db.vm.hostname = "dbserver"
-    db.vm.box = "ubuntu/jammy64"
-    db.vm.network :forwarded_port, host:5566, guest: 80, auto_correct: true
-    db.vm.provider "virtualbox" do |v|
-      v.memory = "4096"
-      v.cpus = 4
-    end
-  end
+  # config.vm.define "db" do |db|
+  #   db.vm.hostname = "dbserver"
+  #   db.vm.box = "ubuntu/jammy64"
+  #   db.vm.network :forwarded_port, host:5566, guest: 80, auto_correct: true
+  #   db.vm.provider "virtualbox" do |v|
+  #     v.memory = "4096"
+  #     v.cpus = 4
+  #   end
+  # end
 end
