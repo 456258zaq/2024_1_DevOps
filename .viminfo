@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1712922700,,"wq"
+|2,0,1712976888,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,230 +25,273 @@
 # Registers:
 
 # File marks:
-'0  5  18  ~/docker-playbook/development
-|4,48,5,18,1712922700,"~/docker-playbook/development"
-'1  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,49,19,18,1712922619,"~/docker-playbook/roles/docker/tasks/main.yml"
-'2  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,50,19,18,1712922613,"~/docker-playbook/roles/docker/tasks/main.yml"
-'3  6  11  ~/docker-playbook/site.yml
-|4,51,6,11,1712922354,"~/docker-playbook/site.yml"
-'4  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,52,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
-'5  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,53,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
-'6  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,54,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
-'7  4  0  ~/ansible-playbook-sample/roles/serverspec_sample/tasks/main.yml
-|4,55,4,0,1712921721,"~/ansible-playbook-sample/roles/serverspec_sample/tasks/main.yml"
-'8  10  0  ~/ansible-playbook-sample/site.yml
-|4,56,10,0,1712921585,"~/ansible-playbook-sample/site.yml"
-'9  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,57,28,2,1712921464,"~/serverspec/spec/localhost/sample_spec.rb"
+'0  19  18  ~/playbook/roles/docker/main.yml
+|4,48,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+'1  19  18  ~/playbook/roles/docker/main.yml
+|4,49,19,18,1712976885,"~/playbook/roles/docker/main.yml"
+'2  5  18  ~/playbook/development
+|4,50,5,18,1712976502,"~/playbook/development"
+'3  1  0  ~/playbook/development
+|4,51,1,0,1712976467,"~/playbook/development"
+'4  1  0  ~/playbook/development
+|4,52,1,0,1712976467,"~/playbook/development"
+'5  8  15  ~/playbook/site.yml
+|4,53,8,15,1712976452,"~/playbook/site.yml"
+'6  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,54,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+'7  5  18  ~/docker-playbook/development
+|4,55,5,18,1712922700,"~/docker-playbook/development"
+'8  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
+|4,56,19,18,1712922619,"~/docker-playbook/roles/docker/tasks/main.yml"
+'9  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
+|4,57,19,18,1712922613,"~/docker-playbook/roles/docker/tasks/main.yml"
 
 # Jumplist (newest first):
--'  5  18  ~/docker-playbook/development
-|4,39,5,18,1712922700,"~/docker-playbook/development"
--'  1  0  ~/docker-playbook/development
-|4,39,1,0,1712922659,"~/docker-playbook/development"
--'  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,19,18,1712922619,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,19,18,1712922619,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,19,18,1712922613,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,19,18,1712922613,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  1  0  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,1,0,1712922448,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  1  0  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,1,0,1712922448,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  1  0  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,1,0,1712922448,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  1  0  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,39,1,0,1712922448,"~/docker-playbook/roles/docker/tasks/main.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  6  11  ~/docker-playbook/site.yml
-|4,39,6,11,1712922354,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  1  0  ~/docker-playbook/site.yml
-|4,39,1,0,1712922325,"~/docker-playbook/site.yml"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  16  43  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,16,43,1712921991,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  1  0  ~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2
-|4,39,1,0,1712921966,"~/ansible-playbook-sample/roles/serverspec_sample/templates/web_spec.rb.j2"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921781,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
--'  2  0  ~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml
-|4,39,2,0,1712921736,"~/ansible-playbook-sample/roles/serverspec_sample/vars/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976885,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  0  ~/playbook/site.yml
+|4,39,1,0,1712976336,"~/playbook/site.yml"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
 
 # History of marks within files (newest to oldest):
+
+> ~/playbook/roles/docker/main.yml
+	*	1712976888	0
+	"	19	18
+	^	19	19
+	.	20	0
+	+	21	0
+	+	4	2
+	+	5	3
+	+	4	3
+	+	5	18
+	+	9	18
+	+	10	40
+	+	12	21
+	+	20	0
+	+	12	23
+	+	13	10
+	+	12	22
+	+	15	13
+	+	20	0
+
+> ~/playbook/development
+	*	1712976502	0
+	"	5	18
+	^	5	19
+	.	5	18
+	+	4	18
+	+	5	18
+
+> ~/playbook/site.yml
+	*	1712976451	0
+	"	8	15
+	^	8	16
+	.	8	15
+	+	8	15
+
+> ~/serverspec/spec/localhost/sample_spec.rb
+	*	1712924270	0
+	"	1	2
+	^	28	3
+	.	16	22
+	+	7	22
+	+	16	22
 
 > ~/docker-playbook/development
 	*	1712922699	0
@@ -294,14 +337,6 @@
 	.	9	0
 	+	8	0
 	+	9	0
-
-> ~/serverspec/spec/localhost/sample_spec.rb
-	*	1712921463	0
-	"	28	2
-	^	28	3
-	.	16	22
-	+	7	22
-	+	16	22
 
 > ~/ansible-playbook-sample/roles/serverspec/tasks/main.yml
 	*	1712839581	0
