@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1712976888,,"wq"
+|2,0,1712978216,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,36 +25,96 @@
 # Registers:
 
 # File marks:
-'0  19  18  ~/playbook/roles/docker/main.yml
-|4,48,19,18,1712976888,"~/playbook/roles/docker/main.yml"
-'1  19  18  ~/playbook/roles/docker/main.yml
-|4,49,19,18,1712976885,"~/playbook/roles/docker/main.yml"
-'2  5  18  ~/playbook/development
-|4,50,5,18,1712976502,"~/playbook/development"
-'3  1  0  ~/playbook/development
-|4,51,1,0,1712976467,"~/playbook/development"
-'4  1  0  ~/playbook/development
-|4,52,1,0,1712976467,"~/playbook/development"
-'5  8  15  ~/playbook/site.yml
-|4,53,8,15,1712976452,"~/playbook/site.yml"
-'6  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,54,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
-'7  5  18  ~/docker-playbook/development
-|4,55,5,18,1712922700,"~/docker-playbook/development"
-'8  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,56,19,18,1712922619,"~/docker-playbook/roles/docker/tasks/main.yml"
-'9  19  18  ~/docker-playbook/roles/docker/tasks/main.yml
-|4,57,19,18,1712922613,"~/docker-playbook/roles/docker/tasks/main.yml"
+'0  11  15  ~/playbook/roles/serverspec/roles/main.yml
+|4,48,11,15,1712978216,"~/playbook/roles/serverspec/roles/main.yml"
+'1  47  13  ~/playbook/roles/gitlab-runner/tasks/main.yml
+|4,49,47,13,1712978106,"~/playbook/roles/gitlab-runner/tasks/main.yml"
+'2  19  18  ~/playbook/roles/docker/main.yml
+|4,50,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+'3  19  18  ~/playbook/roles/docker/main.yml
+|4,51,19,18,1712976885,"~/playbook/roles/docker/main.yml"
+'4  5  18  ~/playbook/development
+|4,52,5,18,1712976502,"~/playbook/development"
+'5  1  0  ~/playbook/development
+|4,53,1,0,1712976467,"~/playbook/development"
+'6  1  0  ~/playbook/development
+|4,54,1,0,1712976467,"~/playbook/development"
+'7  8  15  ~/playbook/site.yml
+|4,55,8,15,1712976452,"~/playbook/site.yml"
+'8  1  2  ~/serverspec/spec/localhost/sample_spec.rb
+|4,56,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
+'9  5  18  ~/docker-playbook/development
+|4,57,5,18,1712922700,"~/docker-playbook/development"
 
 # Jumplist (newest first):
+-'  11  15  ~/playbook/roles/serverspec/roles/main.yml
+|4,39,11,15,1712978216,"~/playbook/roles/serverspec/roles/main.yml"
+-'  1  0  ~/playbook/roles/serverspec/roles/main.yml
+|4,39,1,0,1712978150,"~/playbook/roles/serverspec/roles/main.yml"
+-'  47  13  ~/playbook/roles/gitlab-runner/tasks/main.yml
+|4,39,47,13,1712978106,"~/playbook/roles/gitlab-runner/tasks/main.yml"
+-'  47  13  ~/playbook/roles/gitlab-runner/tasks/main.yml
+|4,39,47,13,1712978106,"~/playbook/roles/gitlab-runner/tasks/main.yml"
+-'  1  0  ~/playbook/roles/gitlab-runner/tasks/main.yml
+|4,39,1,0,1712977633,"~/playbook/roles/gitlab-runner/tasks/main.yml"
+-'  1  0  ~/playbook/roles/gitlab-runner/tasks/main.yml
+|4,39,1,0,1712977633,"~/playbook/roles/gitlab-runner/tasks/main.yml"
 -'  19  18  ~/playbook/roles/docker/main.yml
 |4,39,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976888,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976885,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976885,"~/playbook/roles/docker/main.yml"
+-'  19  18  ~/playbook/roles/docker/main.yml
+|4,39,19,18,1712976885,"~/playbook/roles/docker/main.yml"
 -'  19  18  ~/playbook/roles/docker/main.yml
 |4,39,19,18,1712976885,"~/playbook/roles/docker/main.yml"
 -'  1  0  ~/playbook/roles/docker/main.yml
 |4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
 -'  1  0  ~/playbook/roles/docker/main.yml
 |4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  1  0  ~/playbook/roles/docker/main.yml
+|4,39,1,0,1712976551,"~/playbook/roles/docker/main.yml"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
+-'  5  18  ~/playbook/development
+|4,39,5,18,1712976502,"~/playbook/development"
 -'  5  18  ~/playbook/development
 |4,39,5,18,1712976502,"~/playbook/development"
 -'  5  18  ~/playbook/development
@@ -71,6 +131,54 @@
 |4,39,1,0,1712976468,"~/playbook/development"
 -'  1  0  ~/playbook/development
 |4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976468,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
+-'  1  0  ~/playbook/development
+|4,39,1,0,1712976467,"~/playbook/development"
 -'  1  0  ~/playbook/development
 |4,39,1,0,1712976467,"~/playbook/development"
 -'  1  0  ~/playbook/development
@@ -111,144 +219,88 @@
 |4,39,8,15,1712976452,"~/playbook/site.yml"
 -'  8  15  ~/playbook/site.yml
 |4,39,8,15,1712976452,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  0  ~/playbook/site.yml
-|4,39,1,0,1712976336,"~/playbook/site.yml"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  1  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,1,2,1712924271,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
--'  28  2  ~/serverspec/spec/localhost/sample_spec.rb
-|4,39,28,2,1712924267,"~/serverspec/spec/localhost/sample_spec.rb"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
+-'  8  15  ~/playbook/site.yml
+|4,39,8,15,1712976452,"~/playbook/site.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/playbook/roles/serverspec/roles/main.yml
+	*	1712978215	0
+	"	11	15
+	^	11	16
+	.	11	15
+	+	6	22
+	+	7	36
+	+	6	21
+	+	9	13
+	+	11	15
+
+> ~/playbook/roles/gitlab-runner/tasks/main.yml
+	*	1712978105	0
+	"	47	13
+	^	47	14
+	.	47	13
+	+	10	63
+	+	11	14
+	+	13	40
+	+	18	21
+	+	19	26
+	+	20	50
+	+	21	28
+	+	23	18
+	+	26	1
+	+	25	1
+	+	24	1
+	+	23	1
+	+	22	1
+	+	21	3
+	+	22	3
+	+	23	3
+	+	24	3
+	+	25	3
+	+	26	34
+	+	27	14
+	+	31	17
+	+	45	33
+	+	36	24
+	+	37	22
+	+	42	0
+	+	38	34
+	+	40	1
+	+	39	3
+	+	42	0
+	+	41	3
+	+	40	3
+	+	42	21
+	+	43	23
+	+	46	64
+	+	47	13
 
 > ~/playbook/roles/docker/main.yml
 	*	1712976888	0
