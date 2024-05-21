@@ -1,0 +1,119 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.define "master" do |master|
+    master.vm.box = "ubuntu/jammy64"
+    master.vm.hostname= "MasterNode"
+    master.vm.network "private_network", ip: "192.168.56.0"
+    config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
+    sudo apt -y update
+    sudo apt install -y software-properties-common
+    sudo apt install -y net-tools
+    sudo apt install -y ssh
+    sudo apt install -y docker.io
+    apt-get update
+    sudo swapoff -a
+    sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+    sudo apt-get update
+    sudo apt-get install -y apt-transport-https ca-certificates curl
+    sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    sudo echo 'deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+    sudo apt-get update
+    sudo apt-get install -y kubelet kubeadm kubectl
+    sudo apt-mark hold kubelet kubeadm kubectl
+    # sudo mkdir -p /etc/containerd
+    # sudo containerd config default | sudo tee /etc/containerd/config.toml
+    # systemctl is-enabled containerd 
+    # systemctl enable containerd
+    # sudo vi /etc/containerd/config.toml
+    # [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
+    #     SystemdCgroup = true
+    # sudo systemctl restart containerd
+    SHELL
+    config.vm.provider "virtualbox" do |v|
+      v.memory = 4096
+      v.cpus = 4
+    end
+  end
+
+  config.vm.define "worker_1" do |worker_1|
+    worker_1.vm.box = "ubuntu/jammy64"
+    worker_1.vm.hostname= "WorkerNode1"
+    worker_1.vm.network "private_network", ip: "192.168.56.1"
+    config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
+    sudo apt -y update
+    sudo apt install -y software-properties-common
+    sudo apt install -y net-tools
+    sudo apt install -y ssh
+    sudo apt install -y docker.io
+    apt-get update
+    sudo swapoff -a
+    sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+    sudo apt-get update
+    sudo apt-get install -y apt-transport-https ca-certificates curl
+    sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    sudo echo 'deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+    sudo apt-get update
+    sudo apt-get install -y kubelet kubeadm kubectl
+    sudo apt-mark hold kubelet kubeadm kubectl
+    # sudo mkdir -p /etc/containerd
+    # sudo containerd config default | sudo tee /etc/containerd/config.toml
+    # systemctl is-enabled containerd 
+    # systemctl enable containerd
+    # sudo vi /etc/containerd/config.toml
+    # [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
+    #     SystemdCgroup = true
+    # sudo systemctl restart containerd
+    SHELL
+    config.vm.provider "virtualbox" do |v|
+      v.memory = 4096
+      v.cpus = 4
+    end
+  end
+
+  config.vm.define "worker_2" do |worker_2|
+    worker_2.vm.box = "ubuntu/jammy64"
+    worker_2.vm.hostname= "WorkerNode2"
+    worker_2.vm.network "private_network", ip: "192.168.56.2"
+    config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
+    sudo apt -y update
+    sudo apt install -y software-properties-common
+    sudo apt install -y net-tools
+    sudo apt install -y ssh
+    sudo apt install -y docker.io
+    apt-get update
+    sudo swapoff -a
+    sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+    sudo apt-get update
+    sudo apt-get install -y apt-transport-https ca-certificates curl
+    sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+    sudo echo 'deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+    sudo apt-get update
+    sudo apt-get install -y kubelet kubeadm kubectl
+    sudo apt-mark hold kubelet kubeadm kubectl
+    # sudo mkdir -p /etc/containerd
+    # sudo containerd config default | sudo tee /etc/containerd/config.toml
+    # systemctl is-enabled containerd 
+    # systemctl enable containerd
+    # sudo vi /etc/containerd/config.toml
+    # [plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options]
+    #     SystemdCgroup = true
+    # sudo systemctl restart containerd
+    SHELL
+    config.vm.provider "virtualbox" do |v|
+      v.memory = 4096
+      v.cpus = 4
+    end
+  end
+end
