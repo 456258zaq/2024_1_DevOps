@@ -1,0 +1,124 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Install packages (apt)  # https 를 지원하도록 설치
+    apt:
+      name: "{{ packages }}"
+      state: present
+      update_cache: yes
+    vars:
+      packages:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - gnupg-agent
+      - software-properties-common
+
+  - name: Add an apt signing key for Docker # Docker Repo 키 설치
+    apt_key:
+      url: https://download.docker.com/linux/ubuntu/gpg
+      state: present
+
+  - name: Add apt repository for stable version # Docker Repo 추가
+    apt_repository:
+      repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable
+      state: present
+
+  - name: Install docker and its dependencies # docker 관련 패키지 설치
+    apt:
+      name: "{{ packages }}"
+      state: present
+      update_cache: yes
+    vars:
+      packages:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+    notify:
+    - docker status
+
+  - name: Add vagrant user to docker group # vagrant 계정으로 도커 명령어 사용가능하게 그룹추가
+    user:
+      name: vagrant
+      group: docker
+  
+  - name: Remove swapfile from /etc/fstab
+    mount:
+      name: "{{ item }}"
+      fstype: swap
+      state: absent
+    with_items:
+    - swap
+    - none
+
+  - name: Disable swap
+    command: swapoff -a
+    when: ansible_swaptotal_mb > 0
+
+  - name: Add an apt signing key for KubERNETES
+    apt_key:
+      url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+      state: present
+
+  - name: Adding apt repository for KubERNETES
+    apt_repository:
+      url: deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main
+      state: present
+      filename: kubernetes.list
+
+  - name: Install KubERNETES binaries
+    apt:
+      name: "{{ packages }}"
+      state: present
+      update_cache: yes
+    vars:
+      packages:
+      - kubelet
+      - kubeadm
+      - kubectl
+  
+  - name: Install KubERNETES binaries
+    lineinfile:
+      path: /etc/default/kubelet
+      line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }
+
+  - name: Restart Kubelet
+    service:
+      name: kubelet
+      daemon_reload: yes
+      state: restarted
+  
+  - name: Initialize the kubERNETES cluster using kubeadm
+    command: >
+      kubeadm init
+      --apiserver-advertise-address="{{ master_ip }}"
+      --apiserver-cert-extra-sans="{{ master_ip }}"
+      --node-name=master
+      --pod-network-cidr=192.168.0.0/16
+
+  - name: Setup kubeconfig for vagrant user
+    command: "{{ item }}"
+    with_items:
+      - mkdir -p /home/vagrant/.kube
+      - cp -i /etc/kubernetes/admin.conf /home/vagrant/.kube/config
+      - chown vagrant:vagrant /home/vagrant/.kube/config
+
+  - name: Install calico pod network
+    become: false
+    command: >
+      kubectl create –f
+      https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/tigera-operator.yaml
+
+  - name: Generate join command
+    command: >
+      Kubeadm token create
+      --print-join-command
+    register: join_command
+    
+  - name: Copy join command to local file
+    local_action: copy content="{{join_command.stdout_lines[0]}}" dest="./join-command"
+  
+  handlers:
+  - name: docker status
+    service: name=docker state=started
