@@ -58,12 +58,12 @@
 
   - name: Add an apt signing key for KubERNETES
     apt_key:
-      url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+      url: https://pkgs.k8s.io/core:/stable:/v1.24/deb/Release.key
       state: present
 
   - name: Adding apt repository for KubERNETES
     apt_repository:
-      url: deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main
+      repo: deb https://pkgs.k8s.io/core:/stable:/v1.24/deb/ /
       state: present
       filename: kubernetes.list
 
@@ -81,21 +81,21 @@
   - name: Install KubERNETES binaries
     lineinfile:
       path: /etc/default/kubelet
-      line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }
+      line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }}
+      create: yes
 
   - name: Restart Kubelet
     service:
       name: kubelet
       daemon_reload: yes
       state: restarted
-  
+      
+  # https://hungc.tistory.com/186 참조
   - name: Initialize the kubERNETES cluster using kubeadm
-    command: >
-      kubeadm init
-      --apiserver-advertise-address="{{ master_ip }}"
-      --apiserver-cert-extra-sans="{{ master_ip }}"
-      --node-name=master
-      --pod-network-cidr=192.168.0.0/16
+    shell: |
+      sudo sed -i '/disabled_plugins/d' /etc/containerd/config.toml 
+      sudo systemctl restart containerd
+      sudo kubeadm init --apiserver-advertise-address="{{ master_ip }}" --apiserver-cert-extra-sans="{{ master_ip }}" --node-name=master --pod-network-cidr=192.168.0.0/16
 
   - name: Setup kubeconfig for vagrant user
     command: "{{ item }}"
@@ -107,18 +107,17 @@
   - name: Install calico pod network
     become: false
     command: >
-      kubectl create –f
-      https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/tigera-operator.yaml
-
+      kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.28.0/manifests/tigera-operator.yaml
+  # https://brownbears.tistory.com/225 전체권한 추가
   - name: Generate join command
-    command: >
-      Kubeadm token create
-      --print-join-command
+    shell: |
+      kubeadm token create --print-join-command
     register: join_command
-    
+        
   - name: Copy join command to local file
+    become: false
     local_action: copy content="{{join_command.stdout_lines[0]}}" dest="./join-command"
-  
+
   handlers:
   - name: docker status
     service: name=docker state=started

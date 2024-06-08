@@ -58,12 +58,12 @@
 
   - name: Add an apt signing key for KubERNETES
     apt_key:
-      url: https://packages.cloud.google.com/apt/doc/apt-key.gpg
+      url: https://pkgs.k8s.io/core:/stable:/v1.24/deb/Release.key
       state: present
 
   - name: Adding apt repository for KubERNETES
     apt_repository:
-      url: deb [signed-by=/etc/apt/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main
+      repo: deb https://pkgs.k8s.io/core:/stable:/v1.24/deb/ /
       state: present
       filename: kubernetes.list
 
@@ -81,7 +81,8 @@
   - name: Install KubERNETES binaries
     lineinfile:
       path: /etc/default/kubelet
-      line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }
+      line: KUBELET_EXTRA_ARGS=--node-ip={{ node_ip }}
+      create: yes
 
   - name: Restart Kubelet
     service:
@@ -93,10 +94,7 @@
     copy: src=join-command dest=/tmp/join-command.sh mode=0777
 
   - name: Join the node to cluster
-    command: sh /tmp/join-command.sh
-
-  - name: Copy the join command to server location
-    copy: src=join-command dest=/tmp/join-command.sh mode=0777
-
-  - name: Join the node to cluster
-    command: sh /tmp/join-command.sh
+    shell: |
+      sudo sed -i '/disabled_plugins/d' /etc/containerd/config.toml 
+      sudo systemctl restart containerd
+      sh /tmp/join-command.sh
